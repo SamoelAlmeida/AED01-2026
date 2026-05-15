@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//pirame de pontos *
 
 public class AT01 {
     public static Scanner entrada = new Scanner(System.in);

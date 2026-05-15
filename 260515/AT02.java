@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//Sistema de login de senha
 
 public class AT02 {
     public static Scanner entrada = new Scanner(System.in);
