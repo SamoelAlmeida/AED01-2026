@@ -17,7 +17,6 @@ public class AT02 {
 
     public static void main(String[] args) {
         int senha = LerSenha("Digite a senha: ");
-        System.out.println("Senha correta.");
-        
+        System.out.println("Senha correta: " + senha);
     }
 }
