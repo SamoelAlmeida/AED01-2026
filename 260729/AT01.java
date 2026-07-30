@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AT05 {
+public class AT01 {
     public static Scanner entrada = new Scanner(System.in);
 
     public static int LerInt(String mensagem){
