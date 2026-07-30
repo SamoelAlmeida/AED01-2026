@@ -1,6 +1,6 @@
 import java.util.Scanner;//Corrida de lesmas
 
-public class AT01 {
+public class AT03 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         
