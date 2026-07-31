@@ -1,5 +1,5 @@
 import java.util.Scanner;//Contagem acima da média
-
+ 
 public class AT06 {
     public static Scanner entrada = new Scanner(System.in);
 

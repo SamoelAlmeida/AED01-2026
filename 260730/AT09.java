@@ -1,5 +1,5 @@
 import java.util.Scanner;//Pares no início e ímpares no fim
-
+ 
 public class AT09 {
     public static Scanner entrada = new Scanner(System.in);
 
@@ -11,7 +11,7 @@ public class AT09 {
     }
 
     public static void main(String[] args){
-        int
+        
 
 
 

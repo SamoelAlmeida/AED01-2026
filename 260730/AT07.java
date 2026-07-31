@@ -1,5 +1,5 @@
 import java.util.Scanner;//Soma e diferença entre vetores
-
+ 
 public class AT07 {
     public static Scanner entrada = new Scanner(System.in);
 

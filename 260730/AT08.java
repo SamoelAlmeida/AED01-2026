@@ -1,5 +1,5 @@
 import java.util.Scanner;//Contagem de pares e ímpares
-
+ 
 public class AT08 {
     public static Scanner entrada = new Scanner(System.in);
 
