@@ -1,5 +1,5 @@
 # Copilot Instructions for AED-2026
-
+ 
 ## Project Overview
 The AED-2026 project consists of Java files organized into directories. The main components are located in the `260514` and `260515` folders, which contain Java source files and their compiled class files. The project is structured to facilitate modular development, with each directory representing a distinct set of functionalities.
 
