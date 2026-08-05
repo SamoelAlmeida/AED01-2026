@@ -1,4 +1,4 @@
-import java.util.Scanner;//Pares no início e ímpares no fim
+import java.util.Scanner;//Cópia separando pares e ímpares
  
 public class AT09 {
     public static Scanner entrada = new Scanner(System.in);
