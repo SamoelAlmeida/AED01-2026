@@ -9,13 +9,10 @@ public class At13 {
 
         int[] vetor = new int[tamanho];
 
-        System.out.println("\n--- Preenchimento do Vetor ---");
         for (int i = 0; i < tamanho; i++) {
-            System.out.print("Digite o número para a posição [" + i + "]: ");
+            System.out.print("Digite a posição [" + i + "]: ");
             vetor[i] = scanner.nextInt();
         }
-
-        System.out.println("\nO seu vetor foi criado. As posições válidas vão de 0 a " + (tamanho - 1) + ".");
 
         int posInicio, posFim;
 
