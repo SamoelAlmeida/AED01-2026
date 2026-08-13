@@ -30,7 +30,7 @@ public class At13 {
             System.out.println("O início deve ser menor ou igual ao fim.\n");
         }
 
-        System.out.println("\n--- " + posInicio + posFim + " ---");
+        System.out.println("\n--- " + posInicio +" "+ posFim + " ---");
         for (int i = posInicio; i <= posFim; i++) {
             System.out.println("Posição [" + i + "]: " + vetor[i]);
         }
