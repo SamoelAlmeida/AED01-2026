@@ -1,6 +1,6 @@
 import java.util.Scanner; // Aula variável global, local e vetores
 
-public class At10 {
+public class Aula01 {
     public static Scanner entrada = new Scanner(System.in);
 
     public static void mostrarVetor(int[] v){
