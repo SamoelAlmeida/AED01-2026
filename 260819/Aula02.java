@@ -53,7 +53,7 @@ public class Aula02 {
         return resultado;
     }
 
-public static boolean testarPalindromo(String s){
+    public static boolean testarPalindromo(String s){
         boolean palindromo = true;
 
         s = removerEspacos(s).toLowerCase();
@@ -88,7 +88,7 @@ public static boolean testarPalindromo(String s){
         System.out.println(palavra.toUpperCase());//String com texto completo em maiusculo
         System.out.println(palavra.toLowerCase());//String com texto completo em minusculo      
 
-        System.out.println(palavra.substring(0,10));//Flitro de apartir e quantas letras falar
+        System.out.println(palavra.substring(0,6));//Flitro de apartir e quantas letras falar
         
         System.out.println(inverter(palavra));//Inverte a palavra
         
