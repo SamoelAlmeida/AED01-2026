@@ -53,8 +53,10 @@ public class Aula02 {
         return resultado;
     }
 
-    public static boolean testarPalindromo(String s){
+public static boolean testarPalindromo(String s){
         boolean palindromo = true;
+
+        s = removerEspacos(s).toLowerCase();
 
         int inicio = 0;
         int fim = s.length() - 1;
@@ -71,7 +73,7 @@ public class Aula02 {
         return palindromo;
     }
     public static void main(String []args) {
-        String palavra = "ALGORITIMO algoritimo";
+        String palavra = "o lobo ama o bolo";
         int nVogal;
 
         System.out.println(palavra);//Apenas fala a palavra   
@@ -93,7 +95,6 @@ public class Aula02 {
         System.out.println(removerEspacos(palavra));//tira espaços
         
         System.out.println("A palavra " + palavra + " é palindromo? " + testarPalindromo(palavra));//Teste para palavras palindromas
-
 
     }
 }
