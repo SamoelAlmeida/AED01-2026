@@ -1,4 +1,4 @@
-import java.util.Scanner;//1°Aula de String
+import java.util.Scanner;//Aula de String
 
 public class Aula02 {
     public static Scanner entrada = new Scanner(System.in);
