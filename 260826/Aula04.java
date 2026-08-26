@@ -1,12 +1,15 @@
-import java.util.Scanner;//vetores;
+import java.util.Scanner;//Aulas vetores;
 
 public class Aula04 {
     public static Scanner entrada = new Scanner(System.in);
 
-    public static void PreencherMatriz(int [][] matriz, int valor){
+    public static void PreencherMatriz(int [][] matriz/*, int valor */){
+        int contador=1;
+
         for (int i = 0; i < matriz.length; i++){
             for (int j = 0; j < matriz[i].length; j++){
-                matriz[i][j] = valor;
+                matriz[i][j] = contador;
+                contador++;
             }
         }
     }
@@ -32,9 +35,9 @@ public class Aula04 {
 
         m = new int[8][5];
 
-        int valor = 18;
+        //int valor = 18;
 
-        PreencherMatriz(m, valor);
+        PreencherMatriz(m/* , valor*/);
 
         mostrarMatriz(m);
 
