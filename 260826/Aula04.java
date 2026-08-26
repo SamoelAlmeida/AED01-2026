@@ -1,4 +1,4 @@
-import java.util.Scanner;//Aulas vetores e matriz;
+import java.util.Scanner;//Aula vetores e matrizes;
 
 public class Aula04 {
     public static Scanner entrada = new Scanner(System.in);

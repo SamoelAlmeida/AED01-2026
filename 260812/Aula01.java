@@ -1,4 +1,4 @@
-import java.util.Scanner; // Aula variável global, local e vetores
+import java.util.Scanner; //Aula variável global, local e vetores
 
 public class Aula01 {
     public static Scanner entrada = new Scanner(System.in);
