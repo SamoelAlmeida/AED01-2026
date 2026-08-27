@@ -33,7 +33,7 @@ public class Aula04 {
 
         int[][] m;
 
-        m = new int[8][5];
+        m = new int[3][3];
 
         //int valor = 18;
 
