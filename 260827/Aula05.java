@@ -64,7 +64,7 @@ public class Aula05 {
         m = new int[4][8];
 
         //int valor = 18;
-        int n = 5;
+        //int n = 5;
 
         //PreencherMatriz(m/* , valor*/);
 
