@@ -33,14 +33,15 @@ public class Atv18 {
                     }
                     else {
                         System.out.println(lista);
-                        System.out.print("\nNome a ser removido: ");
-                        String Remover = sc.nextLine();
-                        boolean removido = lista.remove(Remover);
-                        
-                        if (removido) {
-                            System.out.println("\n'" + Remover + "' foi removido");
-                        } else {
-                            System.out.println("\nNome não encontrado");
+                        System.out.print("\nPosição a ser removida: ");
+                        int posi = sc.nextInt() - 1;
+                        boolean removido = (posi >= 0 && posi < lista.size());
+
+                    if (removido) {
+                        String item = lista.remove(posi);
+                        System.out.println("\n'" + item + "' foi removido");
+                    } else {
+                        System.out.println("\nPosição não encontrada");
                         }
                     }
                     break;
