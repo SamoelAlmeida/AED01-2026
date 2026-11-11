@@ -4,7 +4,7 @@ import java.util.Queue;
 public class Aula10 {
     public static void main(String[] args) {
         Queue<String> fila = new LinkedList<>();
-
+ 
         // -------------------------
         // inserir(x): adiciona no final
         // -------------------------

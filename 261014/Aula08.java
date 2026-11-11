@@ -7,7 +7,7 @@ class No { //Aula Listas
 class Lista {
     No inicio;
 }
-
+ 
 public class Aula08 {
     public static void MostrarLista(Lista l){
         No atual;
