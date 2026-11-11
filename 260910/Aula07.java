@@ -1,4 +1,4 @@
-//import java.io.FileWriter;//Aula arquivos
+//import java.io.FileWriter; //Aula arquivos
 import java.io.IOException;
 import java.io.FileReader;
 import java.util.Scanner;

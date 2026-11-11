@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+import java.util.LinkedList; //Lista de nomes com função de add e del
 import java.util.Scanner;
 
 public class Atv18 {
