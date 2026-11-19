@@ -1,4 +1,4 @@
-//Aula Insertion, selection, merge e quick sort
+//Aula Insertion, selection sort
 
 public class Aula13 {
 
